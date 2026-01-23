@@ -1,0 +1,19 @@
+/* 반환문 */
+function hello(name){
+
+    // return
+    // 해당 함수를 바로 종료시키고
+    // 해당 함수를 호출한 곳으로 값을 들고감
+    return `${name}님 안녕하세요?`;
+    console.log('test'); // 실행 X
+}
+
+console.log(hello('원석'));
+
+/* 반환값이 없는 함수 */
+function func(){
+    console.log('함수가 호출되었습니다.');
+    return;
+}
+
+console.log(func());
