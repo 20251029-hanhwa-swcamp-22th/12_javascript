@@ -18,3 +18,6 @@ function hello(name) {
 
 console.log(hello("홍길동"));
 
+const user = { name: "kim", age: 20};
+
+user.name
