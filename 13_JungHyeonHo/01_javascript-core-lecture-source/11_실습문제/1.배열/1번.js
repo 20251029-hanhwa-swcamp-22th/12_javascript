@@ -23,8 +23,7 @@ function findWord(str, word) {
     }
     let split = str.split(',');
     let answer = split.indexOf(word);
-    if(answer !==-1)
-            return `${word}는 배열 index ${answer}번째에 있습니다.`;
-    else
-    return `${word}는 배열에 존재하지 않습니다.`;
+    return answer !== -1
+        ?`${word}는 배열 index ${answer}번째에 있습니다.`
+        :`${word}는 배열에 존재하지 않습니다.`;
 }

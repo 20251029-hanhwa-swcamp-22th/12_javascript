@@ -11,5 +11,5 @@ console.log(numbers);
 strings.sort();
 console.log(strings);
 
-strings.sort((a,b)=>);
+strings.reverse();
 console.log(strings);
