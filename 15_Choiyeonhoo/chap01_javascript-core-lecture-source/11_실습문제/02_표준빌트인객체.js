@@ -116,3 +116,9 @@ function palindrom(str) {
     }
     return true;
 }
+
+function palindrom2(str) {
+    // 코드 작성
+    const reversedStr = str.split("").reverse().join("")
+    return str === reversedStr;
+}
