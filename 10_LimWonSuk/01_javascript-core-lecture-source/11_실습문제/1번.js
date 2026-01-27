@@ -19,5 +19,5 @@ function findWord(str, word) { // 선언
  if (word === undefined){
     return  "결과를 확인할 수 없습니다."
  }
- if 
+ if
 }
