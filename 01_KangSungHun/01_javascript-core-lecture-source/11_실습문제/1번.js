@@ -22,7 +22,7 @@ function findWord(str, word) {
 
     if (word === undefined) {
         return `결과를 확인할 수 없습니다.`;
-    } 
+    }
 
     if (idx === -1) {
         return `${word}는 배열에 존재하지 않습니다.`;
