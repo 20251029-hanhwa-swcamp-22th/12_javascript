@@ -1,0 +1,23 @@
+/* 함수의 구조
+*
+* 1) 함수 선언
+* 2) 함수 정의
+* 3) 함수 호출
+*
+*/
+
+/* 함수
+    선언 + 정의 */
+
+// 함수 선언 시 함수명 작성 핋수!! (이름 있는 함수)
+function hello(name) {
+    return `${name}님 안녕하세요.`;
+}
+
+/* 함수 호출 */
+
+console.log(hello("홍길동"));
+
+const user = { name: "kim", age: 20};
+
+user.name
