@@ -111,4 +111,4 @@ true
 true
 false
 */
-console.log(Math.sqrt(4));
+
