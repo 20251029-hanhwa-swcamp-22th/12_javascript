@@ -1,0 +1,18 @@
+||
+t -> 좌항
+f ->  우항
+&&
+t -> 우항
+f -> 좌항
+
+
+Object
+-속성 property -> Key : Value
+- 기능 method -> Key : function(){}
+
+자바 스크립트 객체 기호 == {}
+
+조건 ? A : B
+
+조건이 t -> A (앞의 것)
+조건이 f -> B (뒤의 것)
